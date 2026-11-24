@@ -1,5 +1,9 @@
 # ✨ Potencializando Estudos e Carreira com IA
 
+<p align="center">
+  <img src="./Screenshot%20app.png" alt="Tela do aplicativo gamificado Study Quest" width="100%">
+</p>
+
 > Um desafio da [Digital Innovation One](https://www.dio.me/) sobre como usar inteligência artificial para transformar uma ideia em uma experiência de estudos mais organizada e envolvente.
 
 Este repositório documenta um experimento prático em que uma necessidade real foi transformada em resultado por meio de quatro ferramentas de IA: um chatbot, o GitHub Copilot, o agente Antigravity e o Lovable.
