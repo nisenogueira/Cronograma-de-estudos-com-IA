@@ -1,45 +1,42 @@
-# Potencializando Estudos e Carreira com IA
+# Desafio DIO — Potencializando Estudos e Carreira com IA
 
-Repositório do desafio da DIO **Potencializando Estudos e Carreira com IA**. O foco deste projeto não é ensinar Análise de Dados nem destacar o cronograma como produto final: é documentar como diferentes ferramentas de IA foram usadas, em etapas, para transformar uma necessidade pessoal em um plano de estudos e em uma experiência gamificada.
+Este repositório documenta um fluxo prático de criação com ferramentas de IA. O objetivo principal é mostrar **como uma necessidade foi trabalhada em etapas com um chatbot, um copiloto, um agente e o Lovable** — não apresentar Análise de Dados como conteúdo didático nem o cronograma como produto final.
 
-## Objetivo
+## Fluxo do desafio
 
-Experimentar o uso de diferentes assistentes e agentes de IA em um fluxo de trabalho prático:
+| Etapa | Ferramenta | Papel no processo | Resultado |
+|---|---|---|---|
+| 1 | Chatbot | Explorar possibilidades de carreira a partir de interesses, experiências e disponibilidade | Área de estudo escolhida e tópicos iniciais |
+| 2 | Copilot | Transformar a escolha em um plano de 30 dias com objetivos, semanas e materiais | Plano de estudos estruturado |
+| 3 | Agente Antigravity | Materializar o plano em arquivos organizados e reutilizáveis | Cronograma, recursos e modelo de anotações |
+| 4 | Lovable | Reaproveitar os arquivos e criar uma experiência de estudos gamificada | Study Quest com missões, metas, XP, moedas e recompensas |
 
-1. **Chatbot — explorar possibilidades de carreira:** organizar interesses, experiências e contexto para identificar áreas de tecnologia compatíveis e escolher por onde começar.
-2. **Copilot — estruturar um plano:** transformar a área escolhida e os tópicos iniciais em um plano de estudos de 30 dias, com objetivos, organização semanal e referências.
-3. **Agent Antigravity — materializar o plano em arquivos:** criar artefatos de apoio para organizar e acompanhar os estudos. Os arquivos dessa etapa serão adicionados ao repositório.
-4. **Lovable — criar uma experiência gamificada:** usar os materiais anteriores como referência para desenvolver o Study Quest, com missões, metas, XP, moedas e recompensas.
+Os arquivos de estudo são **artefatos intermediários**: mostram como o resultado de uma etapa alimenta a seguinte.
 
-O cronograma de Análise de Dados é um **artefato produzido durante o desafio**, usado como entrada para as etapas seguintes — não é o objetivo principal do repositório.
+## Estrutura do repositório
 
-## O que este repositório documenta
+- [`etapas/`](etapas/) — objetivo, prompt e resultado de cada etapa do fluxo.
+- [`cronograma.md`](cronograma.md) — exemplo do plano materializado pelo agente Antigravity.
+- [`recursos.md`](recursos.md) — referências incluídas no plano.
+- [`anotacoes/semana-01.md`](anotacoes/semana-01.md) — modelo de registro criado para acompanhar o plano.
+- [`lovable/README.md`](lovable/README.md) — resumo do app desenvolvido na etapa 4.
 
-- As etapas do processo e o papel de cada ferramenta de IA.
-- Os prompts e materiais usados em cada etapa, conforme forem adicionados.
-- Os arquivos que materializam o plano de estudos.
-- O resultado gamificado criado no Lovable.
+## Resultado criado no Lovable
 
-## Resultado: Study Quest
-
-O Study Quest transforma o plano em missões diárias e semanais, com XP, moedas virtuais, níveis, metas e recompensas.
+O **Study Quest** transforma as atividades do plano em missões, com acompanhamento de progresso e recompensas.
 
 - **Aplicação publicada:** https://questbound-study-planner.lovable.app
 - **Projeto no Lovable:** https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550
 
-## Artefatos de estudo
+## Aprendizados do processo
 
-Os arquivos de cronograma e recursos estão aqui para registrar o resultado intermediário do fluxo e mostrar como ele foi reaproveitado no app:
+- Um contexto e uma solicitação claros ajudam a IA a produzir resultados mais úteis.
+- O resultado de uma ferramenta pode virar entrada para a etapa seguinte.
+- É importante revisar os materiais gerados: conferir links, coerência, formatação e adequação antes de publicar.
+- A gamificação foi uma decisão adicional da autora, criada no Lovable para tornar a experiência mais envolvente.
 
-- [`cronograma.md`](cronograma.md) — plano de 30 dias criado durante o desafio.
-- [`recursos.md`](recursos.md) — referências organizadas por semana.
-- [`anotacoes/semana-01.md`](anotacoes/semana-01.md) — modelo de acompanhamento semanal.
-- [`lovable/README.md`](lovable/README.md) — informações sobre o aplicativo gamificado.
-
-## Sobre o desafio
-
-Este projeto explora como combinar ferramentas de IA com objetivos e contexto fornecidos pela pessoa usuária, revisar os resultados gerados e reaproveitar os artefatos de uma etapa na próxima. As respostas e materiais produzidos por IA devem ser conferidos antes de serem usados ou compartilhados.
+> Os conteúdos foram produzidos com apoio de IA e devem ser verificados. Não inclua dados pessoais, credenciais ou informações privadas em prompts ou arquivos públicos.
 
 ## Licença
 
-Consulte [`LICENSE`](LICENSE) para informações sobre reutilização e distribuição do conteúdo.
+Consulte [`LICENSE`](LICENSE) para informações sobre reutilização e distribuição.

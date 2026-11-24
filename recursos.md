@@ -1,48 +1,33 @@
-# Recursos por Semana
+# 📚 Recursos e Materiais de Estudo
 
-Materiais gratuitos e referências para acompanhar o plano de 30 dias.
+Referências listadas no plano produzido pelo agente Antigravity. Este arquivo faz parte dos artefatos da etapa 3 do fluxo de criação com IA.
 
-## Semana 1 — Estatística
+## Semana 1 — Fundamentos de Estatística
 
-- [Khan Academy — Estatística e Probabilidade](https://pt.khanacademy.org/math/statistics-probability)
-- [OpenIntro Statistics](https://www.openintro.org/book/os/)
-- Excel ou Google Sheets para exercícios estatísticos
-- Percentuais, médias e variância em planilhas próprias
+- **Khan Academy — Estatística e Probabilidade:** [curso em português](https://pt.khanacademy.org/math/statistics-probability) — vídeos e exercícios interativos.
+- **OpenIntro Statistics:** [livro gratuito](https://www.openintro.org/book/os/) — estatística aplicada com exemplos.
+- **Excel:** pratique estatística descritiva com funções disponíveis na sua versão e localidade do aplicativo.
 
-## Semana 2 — Excel, SQL e Python
+## Semana 2 — Ferramentas de Análise de Dados
 
-- [SQLBolt](https://sqlbolt.com/) — prática de consultas SQL
-- [Documentação Python](https://docs.python.org/pt-br/3/)
-- [Documentação Pandas](https://pandas.pydata.org/docs/)
-- [Documentação NumPy](https://numpy.org/doc/)
-- Microsoft Excel ou LibreOffice Calc
-- SQLite Browser ou outra ferramenta gratuita de SQL
+- **SQLBolt:** [aprenda SQL interativamente](https://sqlbolt.com/) — consultas, filtros, agrupamentos e junções.
+- **Python:** [tutorial oficial em português](https://docs.python.org/pt-br/3/tutorial/).
+- **Pandas:** [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html).
+- **NumPy:** [Quickstart](https://numpy.org/doc/stable/user/quickstart.html).
+- Ao estudar `JOIN`, confira a cardinalidade e valide a quantidade de linhas para evitar duplicações que alterem agregações.
 
-### Atenção especial
+## Semana 3 — Visualização de Dados e Power BI
 
-Ao usar JOIN, valide os registros e confira se a consulta não está duplicando resultados. JOINs incorretamente configurados podem distorcer agregações como soma e média.
+- **Microsoft Learn — Power BI:** [trilhas de aprendizagem](https://learn.microsoft.com/pt-br/training/powerplatform/power-bi).
+- **Storytelling with Data:** [artigos e exemplos](https://www.storytellingwithdata.com/) sobre clareza e comunicação visual.
+- **From Data to Viz:** [guia interativo](https://www.data-to-viz.com/) para escolha de gráficos.
+- **Tableau:** [recursos de aprendizado](https://www.tableau.com/learn) sobre visualização e dashboards.
 
-## Semana 3 — Visualização e Power BI
+## Semana 4 — Fundamentos Preditivos e Prática
 
-- [Microsoft Learn — Power BI](https://learn.microsoft.com/power-bi/)
-- [Tableau — Recursos de aprendizado](https://www.tableau.com/learn)
-- [Storytelling with Data](https://www.storytellingwithdata.com/)
-- [Data to Viz](https://www.data-to-viz.com/)
-- Power BI Desktop
+- **Google Machine Learning Crash Course:** [curso](https://developers.google.com/machine-learning/crash-course) sobre conceitos de Machine Learning.
+- **Scikit-learn:** [guia inicial](https://scikit-learn.org/stable/getting_started.html) para conhecer o fluxo de treino e previsão.
+- **Kaggle Learn:** [microcursos gratuitos](https://www.kaggle.com/learn) com exercícios e notebooks.
+- Para atividades práticas, use dados públicos ou sintéticos. Leia as licenças e evite carregar dados pessoais ou confidenciais.
 
-## Semana 4 — Análise Preditiva e Projeto
-
-- [Scikit-learn](https://scikit-learn.org/stable/)
-- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
-- [Kaggle — Cursos gratuitos](https://www.kaggle.com/learn)
-- Base fictícia de vendas criada pelo estudante
-
-## Materiais adicionais sugeridos
-
-- [W3Schools — SQL](https://www.w3schools.com/sql/)
-- [SQLZoo](https://sqlzoo.net/)
-- [Kaggle — Conjuntos de dados](https://www.kaggle.com/datasets)
-
-## Projeto final
-
-Use os recursos desta semana para preparar, analisar e apresentar uma base de vendas. Priorize uma entrega simples, clara e bem explicada.
+> Os links e a disponibilidade dos materiais podem mudar. Verifique a versão, idioma e acesso antes de iniciar os estudos.

@@ -1,79 +1,81 @@
-# Modelo de Anotações — Semana 1
+# 📝 Diário de Estudos — Semana 01: Fundamentos de Estatística
 
-**Semana:** 1  
-**Tema:** Fundamentos de Estatística  
-**Dias:** 1 a 7
+> Modelo de anotações semanal gerado pelo agente Antigravity. Duplique este arquivo e ajuste os temas para registrar outras semanas.
 
-## Objetivo da semana
+## Visão geral da semana
 
-Entender os conceitos essenciais de estatística para interpretar dados e resultados.
+- **Objetivo:** compreender conceitos estatísticos fundamentais aplicados à análise de dados.
+- **Período planejado:** ___/___ a ___/___
+- **Status:** Não iniciado / Em andamento / Concluído
+
+## Checklist semanal
+
+- [ ] **Dia 01:** Introdução à Análise de Dados e conceitos estatísticos
+- [ ] **Dia 02:** Média, mediana e moda
+- [ ] **Dia 03:** Variância, desvio padrão e amplitude
+- [ ] **Dia 04:** Porcentagens e proporções
+- [ ] **Dia 05:** Probabilidade básica
+- [ ] **Dia 06:** Amostragem e interpretação de dados
+- [ ] **Dia 07:** Revisão ou descanso
 
 ## Registro diário
 
-### Dia 1 — Introdução à análise de dados
+### Dia 01 — Introdução à Análise de Dados e Estatística
 
-- O que vou estudar:
-- Conceitos aprendidos:
-- Exercício realizado:
-- Dúvidas:
-- Tempo estudado:
-- Próximo passo:
+- **Data:** ___/___
+- **Teoria estudada (20 min):**
+  - Material consultado:
+  - Conceitos-chave:
+- **Prática realizada (35 min):**
+  - Exercícios ou tarefas:
+  - Resultados:
+- **Revisão e dúvidas (5 min):**
+  - O que preciso reforçar?
 
-### Dia 2 — Média, mediana e moda
+### Dia 02 — Média, Mediana e Moda
 
-- O que vou estudar:
-- Conceitos aprendidos:
-- Exercício realizado:
-- Dúvidas:
-- Tempo estudado:
-- Próximo passo:
+- **Data:** ___/___
+- **Teoria estudada (20 min):** diferenças entre as medidas e efeito de valores discrepantes.
+- **Prática realizada (35 min):** cálculos e fórmulas usados:
+- **Revisão e dúvidas (5 min):**
 
-### Dia 3 — Variância, desvio padrão e amplitude
+### Dia 03 — Variância, Desvio Padrão e Amplitude
 
-- O que vou estudar:
-- Conceitos aprendidos:
-- Exercício realizado:
-- Dúvidas:
-- Tempo estudado:
-- Próximo passo:
+- **Data:** ___/___
+- **Teoria estudada (20 min):** dispersão e diferença entre amostra e população.
+- **Prática realizada (35 min):** cálculos realizados:
+- **Revisão e dúvidas (5 min):**
 
-### Dia 4 — Porcentagens e proporções
+### Dia 04 — Porcentagens e Proporções
 
-- O que vou estudar:
-- Conceitos aprendidos:
-- Exercício realizado:
-- Dúvidas:
-- Tempo estudado:
-- Próximo passo:
+- **Data:** ___/___
+- **Teoria estudada (20 min):** variação percentual e participação relativa.
+- **Prática realizada (35 min):** exercícios realizados:
+- **Revisão e dúvidas (5 min):**
 
-### Dia 5 — Probabilidade básica
+### Dia 05 — Probabilidade Básica
 
-- O que vou estudar:
-- Conceitos aprendidos:
-- Exercício realizado:
-- Dúvidas:
-- Tempo estudado:
-- Próximo passo:
+- **Data:** ___/___
+- **Teoria estudada (20 min):** regras de probabilidade e eventos.
+- **Prática realizada (35 min):** exercícios realizados:
+- **Revisão e dúvidas (5 min):**
 
-### Dia 6 — Amostragem e interpretação
+### Dia 06 — Amostragem e Interpretação de Dados
 
-- O que vou estudar:
-- Conceitos aprendidos:
-- Exercício realizado:
-- Dúvidas:
-- Tempo estudado:
-- Próximo passo:
+- **Data:** ___/___
+- **Teoria estudada (20 min):** tipos de amostragem e vieses.
+- **Prática realizada (35 min):** análise crítica realizada:
+- **Revisão e dúvidas (5 min):**
 
-### Dia 7 — Revisão
+### Dia 07 — Revisão Semanal ou Descanso
 
-- Atividades pendentes:
-- Principais dificuldades:
-- O que revisei:
-- Preparação para a próxima semana:
+- **O que consolidei:**
+- **Pontos fortes:**
+- **Pontos que preciso reforçar:**
 
-## Resumo da semana
+## Retrospectiva da semana
 
-- Progresso: ___%
-- XP ou pontos conquistados:
-- Maior aprendizagem:
-- Próxima meta:
+1. **Cumpri a meta de estudo?** Sim / Parcialmente / Não
+2. **Qual foi o conceito mais desafiador?**
+3. **Qual foi minha principal aprendizagem?**
+4. **O que ajustarei na próxima semana?**

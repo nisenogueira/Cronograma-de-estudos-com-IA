@@ -1,91 +1,70 @@
-# Cronograma de Estudos — 30 Dias
+# 📅 Cronograma de Estudos — 30 Dias
 
-**Área:** Análise de Dados  
-**Disponibilidade:** 1 hora por dia, 6 dias por semana  
-**Meta:** criar uma base inicial e concluir um projeto prático de análise de vendas.
+Este arquivo registra o plano de estudos produzido pelo agente Antigravity a partir do material organizado na etapa anterior. Ele é um artefato do processo documentado neste repositório.
 
-## Organização diária
+A regra de cada sessão de 1 hora:
+- **20 min**: Teoria e leitura
+- **35 min**: Exercícios e prática
+- **5 min**: Revisão e registro em [anotações da semana 1](anotacoes/semana-01.md)
 
-- 20 minutos de teoria ou leitura
-- 35 minutos de exercícios e prática
-- 5 minutos de revisão e anotações
+---
 
-Reserve o último dia de cada semana para descanso ou revisão opcional.
+## Semana 1 — Fundamentos de Estatística (Dias 1 a 7)
 
-## Semana 1 — Fundamentos de Estatística
+> **Objetivo:** compreender conceitos estatísticos essenciais para ler, interpretar e resumir dados quantitativos.
 
-**Dias 1 a 7** — compreender conceitos essenciais para interpretar dados.
+| Dia | Tema | Tipo | Foco teórico (20 min) | Foco prático (35 min) |
+| :---: | :--- | :---: | :--- | :--- |
+| **Dia 01** | Introdução à Análise de Dados e Estatística | Teoria/Prática | Papel do analista de dados; dados qualitativos e quantitativos; variáveis contínuas e discretas. | Mapear e classificar variáveis em uma planilha de exemplo. |
+| **Dia 02** | Média, Mediana e Moda | Prática | Medidas de tendência central, quando usar cada uma e como valores discrepantes afetam a média. | Calcular e comparar média, mediana e moda no Excel. |
+| **Dia 03** | Variância, Desvio Padrão e Amplitude | Prática | Medidas de dispersão e volatilidade dos dados em torno da média. | Calcular desvio padrão amostral e populacional no Excel. |
+| **Dia 04** | Porcentagens e Proporções | Prática | Variações percentuais, taxas de crescimento e participação relativa. | Criar fórmulas de variação percentual e participação no total. |
+| **Dia 05** | Probabilidade Básica | Teoria/Prática | Eventos independentes, probabilidade condicional e espaço amostral. | Resolver exercícios e simular probabilidades simples. |
+| **Dia 06** | Amostragem e Interpretação de Dados | Prática | Amostragem aleatória e estratificada, viés de seleção e cuidados de interpretação. | Analisar dados e identificar possíveis vieses. |
+| **Dia 07** | **Descanso ou Revisão Opcional** | Revisão | Consolidar anotações, rever dúvidas ou descansar. | — |
 
-| Dia | Tema | Atividade prática |
-|---|---|---|
-| 1 | Introdução à análise de dados e conceitos estatísticos | Pesquisar exemplos de dados em contextos cotidianos |
-| 2 | Média, mediana e moda | Calcular as três medidas em uma planilha simples |
-| 3 | Variância, desvio padrão e amplitude | Comparar a dispersão entre dois conjuntos |
-| 4 | Porcentagens e proporções | Resolver exercícios com vendas e participação |
-| 5 | Probabilidade básica | Resolver problemas simples de eventos |
-| 6 | Amostragem e interpretação | Comparar população, amostra e possíveis vieses |
-| 7 | Descanso ou revisão | Revisar anotações e completar exercícios pendentes |
+## Semana 2 — Ferramentas de Análise de Dados (Dias 8 a 14)
 
-## Semana 2 — Ferramentas de Análise de Dados
+> **Objetivo:** conhecer o fluxo básico de planilhas, consultas a bancos relacionais e programação analítica.
+>
+> **Atenção em SQL:** valide a contagem de linhas antes e depois de um `JOIN`. Relacionamentos não planejados podem duplicar registros e distorcer agregações como `SUM` e `AVG`.
 
-**Dias 8 a 14** — organizar dados e praticar Excel, SQL e Python.
+| Dia | Tema | Tipo | Foco teórico (20 min) | Foco prático (35 min) |
+| :---: | :--- | :---: | :--- | :--- |
+| **Dia 08** | Introdução ao Excel e Organização | Prática | Estruturação de planilhas tabulares, tipos de dados e atalhos. | Limpar uma base, remover duplicatas, aplicar filtros e formatação. |
+| **Dia 09** | Fórmulas, Funções e Tabelas Dinâmicas | Prática | Funções lógicas e de busca e uso de tabela dinâmica. | Criar relatório-resumo e segmentação de dados. |
+| **Dia 10** | Introdução ao SQL: `SELECT` e `WHERE` | Prática | Banco relacional, seleção de colunas e operadores de filtro. | Praticar consultas e filtragens no SQLBolt. |
+| **Dia 11** | SQL: `ORDER BY`, `GROUP BY` e Agregações | Prática | Agrupamentos e funções `COUNT`, `SUM`, `AVG`, `MIN`, `MAX` e `HAVING`. | Agregar métricas por categoria. |
+| **Dia 12** | SQL: `JOIN` e Relacionamentos | Prática | Tipos de junção, chaves primárias e estrangeiras e cardinalidade. | Relacionar tabelas e validar a contagem de linhas. |
+| **Dia 13** | Introdução ao Python (Pandas e NumPy) | Prática | Fundamentos de Python, arrays NumPy e objetos DataFrame e Series. | Carregar um CSV e explorar com `.info()`, `.describe()` e `.head()`. |
+| **Dia 14** | **Descanso ou Revisão Opcional** | Revisão | Rever consultas SQL ou praticar comandos básicos de Pandas. | — |
 
-| Dia | Tema | Atividade prática |
-|---|---|---|
-| 8 | Introdução ao Excel | Organizar uma tabela e aplicar formatação |
-| 9 | Fórmulas, funções e tabelas dinâmicas | Calcular totais e criar uma tabela dinâmica |
-| 10 | SQL: SELECT e WHERE | Consultar uma tabela fictícia |
-| 11 | SQL: GROUP BY e funções de agregação | Somar vendas por categoria |
-| 12 | SQL: JOIN | Relacionar tabelas de vendas e clientes |
-| 13 | Python, Pandas e NumPy | Carregar e analisar uma tabela com Pandas |
-| 14 | Descanso ou revisão | Revisar JOIN, GROUP BY e exercícios pendentes |
+## Semana 3 — Visualização de Dados e Power BI (Dias 15 a 21)
 
-## Semana 3 — Visualização de Dados
+> **Objetivo:** transformar dados em narrativas visuais claras, atraentes e orientadas à tomada de decisão.
 
-**Dias 15 a 21** — transformar dados em gráficos e informações claras.
+| Dia | Tema | Tipo | Foco teórico (20 min) | Foco prático (35 min) |
+| :---: | :--- | :---: | :--- | :--- |
+| **Dia 15** | Introdução à Visualização de Dados | Teoria | Carga cognitiva, foco visual e escolha do gráfico adequado. | Consultar exemplos de visualizações eficazes e problemáticas. |
+| **Dia 16** | Gráficos: Barras, Linhas, Pizza e Dispersão | Prática | Finalidade dos gráficos para comparação, tendências, composição e correlação. | Construir gráficos com rótulos e títulos informativos. |
+| **Dia 17** | Introdução ao Power BI Desktop | Prática | Interface e visões de Relatório, Dados e Modelo. | Explorar o ambiente e carregar um arquivo de teste. |
+| **Dia 18** | Power Query: Importação e Transformação | Prática | ETL, tipos de dados, mesclagem, acréscimo e etapas aplicadas. | Tratar uma base e aplicar transformações. |
+| **Dia 19** | Criação de Indicadores (KPIs) e Métricas | Prática | KPIs e noções de medidas DAX. | Criar indicadores de faturamento e volume. |
+| **Dia 20** | Construção de Dashboards Interativos | Prática | Layout, hierarquia visual, filtros e interações. | Montar um dashboard de uma página com visuais e segmentador. |
+| **Dia 21** | **Descanso ou Revisão Opcional** | Revisão | Ajustar o dashboard de teste ou descansar. | — |
 
-| Dia | Tema | Atividade prática |
-|---|---|---|
-| 15 | Introdução à visualização | Escolher gráficos adequados para diferentes dados |
-| 16 | Gráficos de barras, linhas e dispersão | Criar pelo menos três tipos de gráficos |
-| 17 | Introdução ao Power BI | Conhecer o ambiente e importar dados |
-| 18 | Power Query | Limpar e transformar uma base |
-| 19 | KPIs e métricas | Criar faturamento, ticket médio e quantidade |
-| 20 | Construção de dashboard | Montar uma página com filtros e indicadores |
-| 21 | Descanso ou revisão | Validar cálculos e melhorar o visual |
+## Semana 4 — Análise Preditiva e Aplicação dos Conhecimentos (Dias 22 a 30)
 
-## Semana 4 — Projeto Final
+> **Objetivo:** conhecer noções de modelagem preditiva e aplicar os conteúdos estudados em uma atividade de análise.
 
-**Dias 22 a 30** — aplicar os conhecimentos em uma análise de vendas.
-
-| Dia | Tema | Entrega esperada |
-|---|---|---|
-| 22 | Introdução à análise preditiva | Registrar diferenças entre análise descritiva e preditiva |
-| 23 | Correlação e regressão | Identificar relações entre variáveis |
-| 24 | Introdução ao Machine Learning | Entender treino, validação e previsão |
-| 25 | Treino e teste | Separar dados e medir desempenho |
-| 26 | Scikit-learn | Executar um exemplo simples |
-| 27 | Preparação da base | Limpar dados e criar campos necessários |
-| 28 | Análise e visualização | Encontrar tendências e resultados relevantes |
-| 29 | Dashboard e interpretação | Finalizar gráficos e explicar conclusões |
-| 30 | Apresentação final | Publicar ou apresentar o projeto em até 5 minutos |
-
-## Projeto final — Análise de vendas
-
-Utilize uma base fictícia para:
-
-- Organizar e limpar os dados
-- Calcular faturamento, ticket médio e quantidade vendida
-- Identificar produtos mais vendidos
-- Analisar o desempenho mensal
-- Criar gráficos e indicadores no Power BI
-- Apresentar conclusões apoiadas nos dados
-
-## Entrega dos 30 dias
-
-Ao terminar, você deverá ter:
-
-- Conhecimentos básicos de estatística
-- Prática com Excel, SQL e Python
-- Um dashboard no Power BI
-- Projeto publicado ou organizado em formato de apresentação
+| Dia | Tema | Tipo | Foco teórico (20 min) | Foco prático (35 min) |
+| :---: | :--- | :---: | :--- | :--- |
+| **Dia 22** | Introdução à Análise Preditiva | Teoria | Diferenças entre análise descritiva, diagnóstica, preditiva e prescritiva. | Leitura introdutória sobre Machine Learning. |
+| **Dia 23** | Correlação e Regressão | Prática | Correlação, relação entre causa e correlação e regressão linear simples. | Criar dispersão com linha de tendência e avaliar o ajuste. |
+| **Dia 24** | Introdução ao Machine Learning | Teoria | Aprendizado supervisionado e não supervisionado; classificação e regressão. | Relacionar problemas de negócio aos tipos de aprendizado. |
+| **Dia 25** | Treinamento e Teste de Modelos | Teoria/Prática | Divisão treino/teste, sobreajuste e métricas básicas. | Fazer um exercício conceitual. |
+| **Dia 26** | Introdução à Biblioteca Scikit-learn | Prática | Fluxo básico com `.fit()`, `.predict()` e avaliação. | Rodar um exemplo simples em ambiente de notebook. |
+| **Dia 27** | Aplicação — Preparação da Base | Prática | Definir perguntas e campos necessários à análise. | Organizar e limpar uma base de dados de exemplo. |
+| **Dia 28** | Aplicação — Análise Exploratória | Prática | Definir métricas adequadas à base. | Calcular métricas, agrupar por período e identificar padrões. |
+| **Dia 29** | Aplicação — Dashboard | Prática | Planejar uma narrativa visual clara. | Criar visuais, indicadores e filtros. |
+| **Dia 30** | Aplicação — Apresentação e Conclusões | Síntese | Resumir resultados e limitações da análise. | Documentar e apresentar as principais observações. |
