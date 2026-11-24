@@ -1,42 +1,80 @@
-# Desafio DIO — Potencializando Estudos e Carreira com IA
+# Potencializando Estudos e Carreira com IA
 
-Este repositório documenta um fluxo prático de criação com ferramentas de IA. O objetivo principal é mostrar **como uma necessidade foi trabalhada em etapas com um chatbot, um copiloto, um agente e o Lovable** — não apresentar Análise de Dados como conteúdo didático nem o cronograma como produto final.
+Projeto desenvolvido para o desafio da [Digital Innovation One](https://www.dio.me/) com foco em planejamento de carreira e produtividade usando inteligência artificial.
 
-## Fluxo do desafio
+Este repositório documenta um experimento prático em que uma necessidade real foi transformada em resultado por meio de quatro ferramentas de IA: um chatbot, o GitHub Copilot, o agente Antigravity e o Lovable.
 
-| Etapa | Ferramenta | Papel no processo | Resultado |
+> **Foco do projeto:** o processo colaborativo entre pessoa e IA — não o conteúdo do cronograma em si.
+
+## Visão geral
+
+A atividade de estudo começou com a reflexão sobre transição de carreira e disponibilidade limitada para aprender. Em seguida, o conteúdo foi produzido e reaproveitado em etapas:
+
+```text
+Contexto da usuária
+        ↓
+Chatbot: identificação de áreas e tópicos
+        ↓
+Copilot: organização do plano de 30 dias
+        ↓
+Agente Antigravity: criação dos arquivos Markdown
+        ↓
+Lovable: transformação dos arquivos em aplicativo gamificado
+```
+
+O cronograma de Análise de Dados e os materiais de estudo são artefatos intermediários usados para demonstrar esse encadeamento.
+
+## Fluxo de criação
+
+| Etapa | Ferramenta | Contribuição | Resultado |
 |---|---|---|---|
-| 1 | Chatbot | Explorar possibilidades de carreira a partir de interesses, experiências e disponibilidade | Área de estudo escolhida e tópicos iniciais |
-| 2 | Copilot | Transformar a escolha em um plano de 30 dias com objetivos, semanas e materiais | Plano de estudos estruturado |
-| 3 | Agente Antigravity | Materializar o plano em arquivos organizados e reutilizáveis | Cronograma, recursos e modelo de anotações |
-| 4 | Lovable | Reaproveitar os arquivos e criar uma experiência de estudos gamificada | Study Quest com missões, metas, XP, moedas e recompensas |
+| 1 | Chatbot | Explorou interesses, experiência e tempo disponível | Áreas compatíveis e tópicos iniciais |
+| 2 | GitHub Copilot | Estruturou o plano de estudos em um roteiro organizado | Objetivos, cronograma e referências |
+| 3 | Agente Antigravity | Materializou o plano em arquivos Markdown | Cronograma, recursos e diário de estudo |
+| 4 | Lovable | Reaproveitou os artefatos para criar uma interface gamificada | Study Quest |
 
-Os arquivos de estudo são **artefatos intermediários**: mostram como o resultado de uma etapa alimenta a seguinte.
+Os prompts e o registro de cada etapa estão disponíveis em [`etapas/`](etapas/).
 
-## Estrutura do repositório
+## Artefatos produzidos
 
-- [`etapas/`](etapas/) — objetivo, prompt e resultado de cada etapa do fluxo.
-- [`cronograma.md`](cronograma.md) — exemplo do plano materializado pelo agente Antigravity.
-- [`recursos.md`](recursos.md) — referências incluídas no plano.
-- [`anotacoes/semana-01.md`](anotacoes/semana-01.md) — modelo de registro criado para acompanhar o plano.
-- [`lovable/README.md`](lovable/README.md) — resumo do app desenvolvido na etapa 4.
+- [`etapas/01-chatbot.md`](etapas/01-chatbot.md) — contexto e prompt de exploração de carreira.
+- [`etapas/02-copilot.md`](etapas/02-copilot.md) — solicitação usada para estruturar o plano.
+- [`etapas/03-antigravity.md`](etapas/03-antigravity.md) — documentação da criação dos arquivos pelo agente.
+- [`etapas/04-lovable.md`](etapas/04-lovable.md) — descrição da etapa de gamificação.
+- [`cronograma.md`](cronograma.md) — plano de 30 dias produzido na etapa do agente.
+- [`recursos.md`](recursos.md) — referências organizadas por semana.
+- [`anotacoes/semana-01.md`](anotacoes/semana-01.md) — modelo de diário para acompanhar o estudo.
 
-## Resultado criado no Lovable
+## Study Quest
 
-O **Study Quest** transforma as atividades do plano em missões, com acompanhamento de progresso e recompensas.
+O **Study Quest** foi criado no Lovable a partir dos arquivos produzidos nas etapas anteriores. O aplicativo apresenta o plano como missões, metas e recompensas, adicionando elementos como XP, moedas, níveis e acompanhamento diário.
 
-- **Aplicação publicada:** https://questbound-study-planner.lovable.app
-- **Projeto no Lovable:** https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550
+- [Abrir o aplicativo](https://questbound-study-planner.lovable.app)
+- [Abrir o projeto no Lovable](https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550)
+- [Ver a documentação da etapa](lovable/README.md)
 
-## Aprendizados do processo
+## Como navegar
 
-- Um contexto e uma solicitação claros ajudam a IA a produzir resultados mais úteis.
-- O resultado de uma ferramenta pode virar entrada para a etapa seguinte.
-- É importante revisar os materiais gerados: conferir links, coerência, formatação e adequação antes de publicar.
-- A gamificação foi uma decisão adicional da autora, criada no Lovable para tornar a experiência mais envolvente.
+1. Leia o [`README de cada etapa`](etapas/) para conhecer os prompts e os objetivos.
+2. Consulte o [`cronograma.md`](cronograma.md) como exemplo da saída produzida pelo agente.
+3. Explore o [`Study Quest`](https://questbound-study-planner.lovable.app) para ver como os materiais foram transformados em experiência gamificada.
 
-> Os conteúdos foram produzidos com apoio de IA e devem ser verificados. Não inclua dados pessoais, credenciais ou informações privadas em prompts ou arquivos públicos.
+## Aprendizados
+
+- Contexto claro e instruções específicas produzem resultados mais úteis.
+- O resultado de uma ferramenta pode ser reaproveitado como entrada da seguinte.
+- Agentes podem transformar conteúdo em arquivos estruturados e prontos para colaboração.
+- É necessário revisar informações geradas por IA, confirmar links e avaliar coerência antes da publicação.
+- Gamificação pode ser usada como camada adicional para aumentar engajamento em uma rotina de estudos.
+
+## Privacidade
+
+Os prompts e arquivos compartilhados neste repositório não incluem dados pessoais, senhas, credenciais ou informações confidenciais. Antes de adaptar o projeto, remova dados privados de conversas, documentos e integrações.
+
+## Tecnologias e conceitos envolvidos
+
+IA conversacional, GitHub Copilot, agentes de desenvolvimento, Lovable, Markdown, gamificação e organização de estudos.
 
 ## Licença
 
-Consulte [`LICENSE`](LICENSE) para informações sobre reutilização e distribuição.
+Este projeto está licenciado sob a [MIT License](LICENSE).
