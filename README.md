@@ -1,65 +1,45 @@
-# Study Quest — Cronograma de Estudos Gamificado
+# Potencializando Estudos e Carreira com IA
 
-Este repositório reúne o desafio da DIO **Potencializando Estudos e Carreira com IA**. O projeto usa IA para orientar a transição de carreira, montar um plano de 30 dias e transformar a rotina de estudos em uma experiência gamificada.
+Repositório do desafio da DIO **Potencializando Estudos e Carreira com IA**. O foco deste projeto não é ensinar Análise de Dados nem destacar o cronograma como produto final: é documentar como diferentes ferramentas de IA foram usadas, em etapas, para transformar uma necessidade pessoal em um plano de estudos e em uma experiência gamificada.
 
-## Sobre o projeto
+## Objetivo
 
-A proposta nasceu do contexto de uma pessoa com 1 hora diária disponível para estudar, background em Ciências Contábeis e interesse em tecnologia. O plano escolhido foi **Análise de Dados**, por combinar conhecimentos anteriores com oportunidades de entrada na área.
+Experimentar o uso de diferentes assistentes e agentes de IA em um fluxo de trabalho prático:
 
-## Conteúdo do repositório
+1. **Chatbot — explorar possibilidades de carreira:** organizar interesses, experiências e contexto para identificar áreas de tecnologia compatíveis e escolher por onde começar.
+2. **Copilot — estruturar um plano:** transformar a área escolhida e os tópicos iniciais em um plano de estudos de 30 dias, com objetivos, organização semanal e referências.
+3. **Agent Antigravity — materializar o plano em arquivos:** criar artefatos de apoio para organizar e acompanhar os estudos. Os arquivos dessa etapa serão adicionados ao repositório.
+4. **Lovable — criar uma experiência gamificada:** usar os materiais anteriores como referência para desenvolver o Study Quest, com missões, metas, XP, moedas e recompensas.
 
-- [`README.md`](README.md) — visão geral do projeto
-- [`cronograma.md`](cronograma.md) — roteiro completo das quatro semanas
-- [`recursos.md`](recursos.md) — materiais separados por semana
-- [`anotacoes/`](anotacoes/) — modelos para acompanhar o estudo
-- [`lovable/`](lovable/) — informações sobre o Study Quest
+O cronograma de Análise de Dados é um **artefato produzido durante o desafio**, usado como entrada para as etapas seguintes — não é o objetivo principal do repositório.
 
-## Plano de 30 dias
+## O que este repositório documenta
 
-- **Carga diária:** 1 hora
-- **Frequência:** 6 dias de estudo e 1 dia opcional de descanso ou revisão
-- **Divisão diária:** 20 minutos de teoria, 35 minutos de prática e 5 minutos de revisão
-- **Carga total:** aproximadamente 30 horas
+- As etapas do processo e o papel de cada ferramenta de IA.
+- Os prompts e materiais usados em cada etapa, conforme forem adicionados.
+- Os arquivos que materializam o plano de estudos.
+- O resultado gamificado criado no Lovable.
 
-### Visão geral
+## Resultado: Study Quest
 
-| Semana | Tema | Resultado esperado |
-|---|---|---|
-| 1 | Estatística | Interpretar métricas e conceitos básicos |
-| 2 | Ferramentas | Praticar Excel, SQL e Python |
-| 3 | Visualização | Criar gráficos e dashboards no Power BI |
-| 4 | Projeto final | Analisar vendas e apresentar conclusões |
+O Study Quest transforma o plano em missões diárias e semanais, com XP, moedas virtuais, níveis, metas e recompensas.
 
-## Projeto gamificado
+- **Aplicação publicada:** https://questbound-study-planner.lovable.app
+- **Projeto no Lovable:** https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550
 
-O **Study Quest** transforma cada dia em uma missão com XP, moedas, níveis e recompensas. Ele foi criado no Lovable a partir dos arquivos produzidos nas etapas anteriores.
+## Artefatos de estudo
 
-- **Experiência:** https://questbound-study-planner.lovable.app
-- **Projeto:** https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550
+Os arquivos de cronograma e recursos estão aqui para registrar o resultado intermediário do fluxo e mostrar como ele foi reaproveitado no app:
 
-## Projeto final
+- [`cronograma.md`](cronograma.md) — plano de 30 dias criado durante o desafio.
+- [`recursos.md`](recursos.md) — referências organizadas por semana.
+- [`anotacoes/semana-01.md`](anotacoes/semana-01.md) — modelo de acompanhamento semanal.
+- [`lovable/README.md`](lovable/README.md) — informações sobre o aplicativo gamificado.
 
-A atividade prática consiste em analisar uma base fictícia de vendas e:
+## Sobre o desafio
 
-1. Organizar e limpar os dados.
-2. Calcular faturamento, ticket médio e quantidade vendida.
-3. Identificar os produtos mais vendidos.
-4. Avaliar o desempenho mensal.
-5. Criar indicadores e dashboards no Power BI.
-6. Apresentar conclusões baseadas nos dados.
-
-## Como usar
-
-1. Consulte o [`cronograma.md`](cronograma.md).
-2. Duplicar o modelo em [`anotacoes/semana-01.md`](anotacoes/semana-01.md) para cada semana.
-3. Registrar teoria, prática e dificuldades a cada dia.
-4. Escolher os materiais em [`recursos.md`](recursos.md).
-5. Concluir as atividades e guardar evidências do projeto final.
-
-## Tecnologias e conteúdos estudados
-
-Excel, SQL, Python, Pandas, NumPy, Power BI, estatística, visualização de dados e fundamentos de Machine Learning.
+Este projeto explora como combinar ferramentas de IA com objetivos e contexto fornecidos pela pessoa usuária, revisar os resultados gerados e reaproveitar os artefatos de uma etapa na próxima. As respostas e materiais produzidos por IA devem ser conferidos antes de serem usados ou compartilhados.
 
 ## Licença
 
-Este projeto está disponível para estudo e uso pessoal. Consulte o arquivo `LICENSE` antes de reutilizar ou redistribuir o conteúdo.
+Consulte [`LICENSE`](LICENSE) para informações sobre reutilização e distribuição do conteúdo.
