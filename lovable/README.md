@@ -12,7 +12,6 @@ Este aplicativo é o resultado da quarta etapa do desafio. A autora levou os mat
 ## Links
 
 - **Aplicação publicada:** https://questbound-study-planner.lovable.app
-- **Projeto no Lovable:** https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550
 
 Para entender o papel do aplicativo no fluxo, consulte [`../etapas/04-lovable.md`](../etapas/04-lovable.md).
 
