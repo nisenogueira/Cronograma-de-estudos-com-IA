@@ -9,7 +9,6 @@ Por iniciativa da autora, levar o material criado nas etapas anteriores ao Lovab
 O **Study Quest** organiza o plano em missões diárias e semanais, com XP, moedas, níveis, metas e recompensas. Os links de estudo foram ajustados para acompanhar os temas do plano.
 
 - **Aplicação publicada:** https://questbound-study-planner.lovable.app
-- **Projeto no Lovable:** https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550
 
 ## Papel desta etapa no desafio
 
