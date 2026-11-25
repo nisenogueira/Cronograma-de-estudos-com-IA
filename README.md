@@ -54,7 +54,6 @@ O cronograma de Análise de Dados e os materiais de estudo são **artefatos inte
 Criado no Lovable a partir dos materiais anteriores, o **Study Quest** transforma o plano em missões, metas e recompensas, com XP, moedas, níveis e acompanhamento diário.
 
 🚀 **Experimente:** [Abrir o Study Quest](https://questbound-study-planner.lovable.app)  
-🧩 **Projeto no Lovable:** [Visualizar o projeto](https://lovable.dev/projects/fe170609-1673-4dc6-9d96-151c53874550)  
 📖 **Documentação:** [Ver detalhes da etapa](lovable/README.md)
 
 ## 🧑‍💻 Como explorar este repositório
